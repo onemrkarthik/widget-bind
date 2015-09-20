@@ -7,7 +7,8 @@ var serveStatic = require('serve-static');
 require('lasso').configure({
     bundlingEnabled: false,
     plugins: [
-        'lasso-marko'
+        'lasso-marko',
+        'lasso-less'
     ],
     minify: false,
     bundlingEnabled: false,

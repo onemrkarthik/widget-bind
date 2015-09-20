@@ -1,6 +1,9 @@
 {
     "dependencies": [
         "require: marko-widgets",
-        "require: ./widget"
+        "require: jquery",
+        "require: ./widget",
+
+        "../../modules/app-sample-component"
     ]
 }
